@@ -31,10 +31,10 @@ npm install
 
 ## Screenshots
 
-![](./src/images/desktop-light.png)
-![](./src/images/desktop-dark.png)
-![](./src/images/mobile-light.png)
-![](./src/images/mobile-dark.png)
+![](./client/src/images/desktop-light.png)
+![](./client/src/images/desktop-dark.png)
+![](./client/src/images/mobile-light.png)
+![](./client/src/images/mobile-dark.png)
 
 ## Links
 
