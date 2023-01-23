@@ -1,0 +1,12 @@
+2022-10-12	10:03:56	b2a17390-3569-451b-a584-406f31b93500	TypeError: authHeader?.startsWtih is not a function
+2022-10-12	10:13:14	be0fbe50-bb8e-4150-b0c6-eedaf93a3036	TypeError: authHeader?.startsWtih is not a function
+2022-10-12	10:14:55	7e63b66a-68e0-4e09-ad8b-0ad001df45a1	TypeError: authHeader?.startsWtih is not a function
+2022-10-12	10:27:42	0290ec99-9ab0-41ef-a0c6-d8e37fa714c7	TypeError: authHeader?.startsWtih is not a function
+2022-10-12	10:29:38	a451457f-ad2d-4b8a-8111-e0f01bbb6feb	TypeError: authHeader?.startsWtih is not a function
+2022-10-12	10:30:04	3548ff96-a007-4ac3-ad51-b66e58fa16ac	TypeError: authHeader?.startsWtih is not a function
+2022-10-12	10:30:08	73f00b17-0470-46cb-ac0a-7af2d22751fe	TypeError: authHeader?.startsWtih is not a function
+2022-10-12	10:35:43	cdd2aec1-883e-449d-8aca-8acf313ae001	TypeError: authHeader?.startsWtih is not a function
+2022-10-12	10:36:34	3ac8ccff-9dee-4cb6-a067-66ddf4b08e55	TypeError: authHeader?.startsWtih is not a function
+2022-10-12	10:38:07	c4509ef0-b581-4c49-b5a9-3a9d354b5f32	TypeError: authHeader?.startsWtih is not a function
+2022-10-12	10:39:51	26ec54d7-fb7d-423b-aa9f-07f4f6cd9383	TypeError: authHeader?.startsWtih is not a function
+2022-10-13	00:00:45	3d4256f7-00e3-49dd-a52c-f9a775106f11	ValidationError: Todo validation failed: userId: Path `userId` is required.
