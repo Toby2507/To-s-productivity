@@ -20,7 +20,7 @@ To work with or inspect the code base
 - Clone the repo
 
 ```bash
-git clone git@github.com:Toby2507/toby-s-todo.git
+git clone git@github.com:Toby2507/To-s-productivity.git
 ```
 
 - Install dependencies
