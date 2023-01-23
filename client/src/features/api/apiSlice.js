@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { setCredentials, clearCredentials } from '../auth/authSlice';
 
 const baseQuery = fetchBaseQuery({
-    baseUrl: 'https://tobystodo.herokuapp.com',
+    baseUrl: process.env.REACT_APP_SERVER_URL,
     credentials: 'include',
     prepareHeaders: (headers, { getState }) => {
         const token = getState().auth.token;
@@ -11,7 +11,7 @@ const baseQuery = fetchBaseQuery({
         }
         return headers;
     }
-})
+});
 
 const baseQueryWithReauth = async (args, api, extraOptions) => {
     let result = await baseQuery(args, api, extraOptions);
@@ -26,11 +26,11 @@ const baseQueryWithReauth = async (args, api, extraOptions) => {
         }
     }
     return result;
-}
+};
 
 export const apiSlice = createApi({
     reducerPath: 'api',
     baseQuery: baseQueryWithReauth,
     tagTypes: ['Todos'],
     endpoints: builder => ({})
-})
+});
